@@ -95,7 +95,7 @@ body {
 .hero {
   background-image: url("../img/header-blur.png");
   background-position: center;
-  padding: 91px 21px 21px 42px;
+  padding: 91px 21px 42px 21px;
 }
 .hero-hello {
   color: rgb(229, 233, 240);
