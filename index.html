@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vladislav-Pavlenko</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Load html file -->
+    <load src="./html/about.html" />
+    <load src="./html/contact.html" />
+    <load src="./html/projects.html" />
+    <!-- Header -->
+    <div class="container">
+      <header class="header">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html">vladislav-pavlenko</a>
+          <button class="header-open-menu-button" type="button">
+            <svg class="header-open-menu-icon" width="18" height="16">
+              <use href="./img/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </nav>
+      </header>
+      <!-- Main -->
+      <main>
+        <section class="hero">
+          <p class="hero-hello">Hi all. I am</p>
+          <h1 class="hero-title">Vladislav Pavlenko</h1>
+          <p class="hero-subtitle">> Front-end developer</p>
+          <p class="hero-text">// find my profile on Github:</p>
+          <a class="hero-link-github" href=""
+            ><span class="hero-const">const</span>
+            <span class="hero-github">githubLink</span> =
+            <span class="hero-link">“https://github.com/example/url”</span></a
+          >
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-line"></div>
+        <p class="designed">designed by Yanka Darelova</p>
+      </footer>
+    </div>
+    <script type="module" src="./main.js" defer></script>
+  </body>
+</html>
