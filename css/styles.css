@@ -194,6 +194,7 @@ html {
   background-color: rgb(1, 22, 39);
   margin: 0 auto;
   max-width: 100%;
+  min-height: 95vh;
 }
 
 .mob-navigation {
@@ -228,7 +229,7 @@ html {
 }
 
 .media-container {
-  margin-top: 38vh;
+  margin-top: auto;
   display: flex;
   border-top: 1px solid rgb(30, 45, 61);
   max-width: 100%;
