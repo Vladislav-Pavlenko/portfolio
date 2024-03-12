@@ -22,44 +22,104 @@
   </head>
 
   <body>
-    <!-- Load html file -->
-    <load src="./html/about.html" />
-    <load src="./html/contact.html" />
-    <load src="./html/projects.html" />
-    <!-- Header -->
-    <div class="container">
-      <header class="header">
-        <nav class="header-navigation">
-          <a class="header-logo" href="./index.html">vladislav-pavlenko</a>
-          <button class="header-open-menu-button" type="button">
-            <svg class="header-open-menu-icon" width="18" height="16">
-              <use href="./img/icons.svg#icon-menu"></use>
+    <!-- Mob menu -->
+    <div class="header-backdrop js-menu-container">
+      <div class="header-mob-menu">
+        <nav class="mob-navigation">
+          <a class="mob-logo" href="./index.html">vladislav-pavlenko</a>
+
+          <button class="close-menu-button js-close-menu" type="button">
+            <svg class="close-menu-icon" width="30" height="30">
+              <use href="./img/icons.svg#icon-close"></use>
             </svg>
           </button>
         </nav>
-      </header>
-      <!-- Main -->
-      <main>
-        <section class="hero">
-          <p class="hero-hello">Hi all. I am</p>
-          <h1 class="hero-title">Vladislav Pavlenko</h1>
-          <p class="hero-subtitle">> Full-stack developer</p>
-          <p class="hero-text">// find my profile on Github:</p>
-          <a
-            class="hero-link-github"
-            href="https://github.com/Vladislav-Pavlenko"
-            ><span class="hero-const">const</span>
-            <span class="hero-github">githubLink</span> =
-            <span class="hero-link">“https://github.com/example/url”</span></a
-          >
-        </section>
-      </main>
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="footer-line"></div>
-        <p class="designed">designed by Yanka Darelova</p>
-      </footer>
+        <ul class="mob-menu-list">
+          <li class="mob-menu-list-item">
+            <a class="mob-menu-item-link" href="./index.html">_hello</a>
+          </li>
+          <li class="mob-menu-list-item">
+            <a class="mob-menu-item-link" href="./html/about.html">_about-me</a>
+          </li>
+          <li class="mob-menu-list-item">
+            <a class="mob-menu-item-link" href="./html/projects.html"
+              >_projects</a
+            >
+          </li>
+          <li class="mob-menu-list-item">
+            <a class="mob-menu-item-link" href="./html/contact.html"
+              >_contact-me</a
+            >
+          </li>
+        </ul>
+
+        <div class="media-container">
+          <p class="mob-description">find me in:</p>
+          <ul class="mob-soc-list">
+            <li class="mob-soc-list-item">
+              <a class="mob-soc-item-link" href="" target="_blank">
+                <svg class="mob-soc-link-icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-list-item">
+              <a class="mob-soc-item-link" href="" target="_blank">
+                <svg class="mob-soc-link-icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-list-item">
+              <a class="mob-soc-item-link" href="" target="_blank">
+                <svg class="mob-soc-link-icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <script type="module" src="./main.js" defer></script>
+
+    <div class="backdrop">
+      <div class="container">
+        <header class="header">
+          <!-- Header -->
+          <nav class="header-navigation">
+            <a class="header-logo" href="./index.html">vladislav-pavlenko</a>
+            <button class="header-open-menu-button js-open-menu" type="button">
+              <svg class="header-open-menu-icon" width="18" height="16">
+                <use href="./img/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
+          </nav>
+        </header>
+        <!-- Main -->
+        <main>
+          <section class="hero">
+            <p class="hero-hello">Hi all. I am</p>
+            <h1 class="hero-title">Vladislav Pavlenko</h1>
+            <p class="hero-subtitle">> Full-stack developer</p>
+            <p class="hero-text">// find my profile on Github:</p>
+            <a
+              class="hero-link-github"
+              href="https://github.com/Vladislav-Pavlenko"
+              target="_blank"
+              ><span class="hero-const">const</span>
+              <span class="hero-github">githubLink</span> =
+              <span class="hero-link">“https://github.com/example/url”</span></a
+            >
+          </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <p class="designed">designed by Yanka Darelova</p>
+        </footer>
+      </div>
+    </div>
+
+    <script type="module" src="./js/main.js" defer></script>
   </body>
 </html>
