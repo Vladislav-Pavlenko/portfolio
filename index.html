@@ -23,12 +23,12 @@
 
   <body>
     <!-- Mob menu -->
-    <div class="header-backdrop js-menu-container">
+    <div id="menu" class="header-backdrop">
       <div class="header-mob-menu">
         <nav class="mob-navigation">
           <a class="mob-logo" href="./index.html">vladislav-pavlenko</a>
 
-          <button class="close-menu-button js-close-menu" type="button">
+          <button id="close-menu" class="close-menu-button" type="button">
             <svg class="close-menu-icon" width="30" height="30">
               <use href="./img/icons.svg#icon-close"></use>
             </svg>
@@ -88,7 +88,11 @@
           <!-- Header -->
           <nav class="header-navigation">
             <a class="header-logo" href="./index.html">vladislav-pavlenko</a>
-            <button class="header-open-menu-button js-open-menu" type="button">
+            <button
+              id="open-menu"
+              class="header-open-menu-button"
+              type="button"
+            >
               <svg class="header-open-menu-icon" width="18" height="16">
                 <use href="./img/icons.svg#icon-menu"></use>
               </svg>
