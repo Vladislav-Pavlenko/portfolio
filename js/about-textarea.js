@@ -42,7 +42,7 @@ function printText() {
 
 printText();
 
-function openModal() {
+function openMessage() {
   const openModal = document.getElementById("open-modal");
   const closeModal = document.getElementById("close-modal");
   const modal = document.getElementById("modal");
@@ -60,4 +60,4 @@ function openModal() {
   });
 }
 
-openModal();
+openMessage();

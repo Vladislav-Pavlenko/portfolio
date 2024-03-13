@@ -99,10 +99,14 @@
             </button>
           </nav>
         </header>
+        <!-- Main -->
         <main>
+          <!-- About -->
           <section class="about">
             <h2 class="about-title">_about-me</h2>
+            <!-- About list -->
             <ul class="about-list">
+              <!-- Personal-info -->
               <li class="about-list-item">
                 <div class="about-list-title">
                   <svg
@@ -121,6 +125,7 @@
                     personal-info
                   </button>
                 </div>
+                <!-- Personal list -->
                 <ul
                   id="about-list1"
                   class="personal-list"
@@ -146,6 +151,7 @@
                         bio
                       </button>
                     </div>
+                    <!-- Bio list -->
                     <ul
                       id="personal-list1"
                       class="bio-list"
@@ -185,6 +191,7 @@
                         interests
                       </button>
                     </div>
+                    <!-- Interests list -->
                     <ul
                       id="personal-list2"
                       class="interests-list"
@@ -236,6 +243,7 @@
                         education
                       </button>
                     </div>
+                    <!-- Education list -->
                     <ul
                       id="personal-list3"
                       class="education-list"
@@ -269,6 +277,7 @@
                   </li>
                 </ul>
               </li>
+              <!-- Professional-info -->
               <li class="about-list-item">
                 <div class="about-list-title">
                   <svg
@@ -286,12 +295,14 @@
                   >
                     professional-info
                   </button>
+                  <!-- Professional list -->
                   <ul id="about-list2" style="display: none">
                     <li></li>
                     <li></li>
                   </ul>
                 </div>
               </li>
+              <!-- Hobbies -->
               <li class="about-list-item">
                 <div class="about-list-title">
                   <svg
@@ -309,12 +320,14 @@
                   >
                     hobbies
                   </button>
+                  <!-- Hobbies list -->
                   <ul id="about-list3" style="display: none">
                     <li></li>
                     <li></li>
                   </ul>
                 </div>
               </li>
+              <!-- Contacts -->
               <li class="about-list-item">
                 <div class="about-list-title">
                   <svg
@@ -332,6 +345,7 @@
                   >
                     contacts
                   </button>
+                  <!-- Contacts list -->
                   <ul id="about-list4" style="display: none">
                     <li></li>
                     <li></li>
@@ -340,6 +354,7 @@
               </li>
             </ul>
           </section>
+          <!-- Textarea -->
           <section class="textarea">
             <h2 class="visually-hidden">Info</h2>
             <div class="textarea-container">
@@ -348,6 +363,7 @@
             </div>
             <p id="paragraph" class="textarea-text"></p>
           </section>
+          <!-- Code snippet -->
           <section class="code">
             <h2 class="code-title">// Code snippet showcase:</h2>
             <div class="code-container">
@@ -373,7 +389,8 @@
                 details
               </button>
             </div>
-            <div class="code-area">
+            <!-- Codearea -->
+            <div class="codearea">
               <p class="code-text">
                 function initializeModelChunk(){ const value: T =
                 parseModel(chunk._response, chunk._value); const
@@ -382,19 +399,25 @@
                 = value; return value; }
               </p>
             </div>
-            <div id="modal" class="code-modal" style="display: none">
-              <p class="code-modal-text">
+            <!-- Message -->
+            <div id="modal" class="code-message" style="display: none">
+              <p class="code-message-text">
                 My work here was 5 months ago. It was for the project called
                 “...”. Some other text can be placed here.
               </p>
-              <button id="close-modal" class="code-modal-button" type="button">
-                <svg class="code-modal-icon" width="10" height="10">
+              <button
+                id="close-modal"
+                class="code-message-button"
+                type="button"
+              >
+                <svg class="code-message-icon" width="10" height="10">
                   <use href="../img/icons.svg#icon-cross"></use>
                 </svg>
               </button>
             </div>
           </section>
         </main>
+        <!-- Footer -->
         <footer class="footer">
           <p class="footer-description">find me in:</p>
           <ul class="footer-soc-list">
@@ -423,6 +446,7 @@
         </footer>
       </div>
     </div>
+    <!-- Script -->
     <script type="module" src="../js/main.js" defer></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-/* Global */
+/* ------------------------------------------------Global------------------------------------------------ */
 :root {
   font-family: "Fira Code", monospace;
   font-size: 16px;
@@ -66,7 +66,8 @@ html {
 .no-scroll {
   overflow: hidden;
 }
-/* Decoration */
+
+/* ------------------------------------------------Decorations------------------------------------------------ */
 
 .backdrop {
   padding: 15px;
@@ -78,7 +79,7 @@ html {
   background-color: rgb(1, 22, 39);
 }
 
-/* Header */
+/* ------------------------------------------------Header---------------------------------------------------- */
 
 .header {
   border-bottom: 1px solid rgb(30, 45, 61);
@@ -116,7 +117,8 @@ html {
   fill: #607b96;
 }
 
-/* About */
+/* ------------------------------------------------About---------------------------------------------------- */
+
 .about-title {
   color: rgb(255, 255, 255);
   font-size: 14px;
@@ -125,11 +127,14 @@ html {
   padding: 21px 27px;
 }
 
+/* ------------------------------------------------About list ------------------------------------------------ */
+
 .about-list {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
+
 .about-list-item {
   display: flex;
   flex-direction: column;
@@ -141,6 +146,7 @@ html {
   fill: #ffffff;
   transform: rotate(-90deg);
 }
+
 .about-list-button {
   background-color: transparent;
   border: none;
@@ -149,21 +155,25 @@ html {
   line-height: 1.3;
   transition: color 250ms ease-in-out;
 }
+
 .about-list-button:hover,
 .about-list-button:focus,
 .about-list-button:active {
   color: #7ba4d1;
 }
+
 .about-list-title {
   display: flex;
   align-items: center;
 }
+
+/* ------------------------------------------------Personal list ------------------------------------------------ */
+
 .personal-list {
   display: flex;
   flex-direction: column;
 }
-.personal-list-item {
-}
+
 .personal-title {
   display: flex;
   padding-left: 8px;
@@ -200,17 +210,23 @@ html {
 .personal-item-button:active {
   color: #7ba4d1;
 }
+
+/* ------------------------------------------------bio list------------------------------------------------- */
+
 .bio-list {
   flex-direction: column;
 }
+
 .bio-list-item {
   display: flex;
   align-items: center;
   padding-left: 30px;
 }
+
 .bio-icon {
   fill: #81a1c1;
 }
+
 .bio-button {
   background-color: transparent;
   border: none;
@@ -225,17 +241,23 @@ html {
 .bio-button:active {
   color: #7ba4d1;
 }
+
+/* --------------------------------------------------interests list------------------------------------------------ */
+
 .interests-list {
   flex-direction: column;
 }
+
 .interests-list-item {
   display: flex;
   align-items: center;
   padding-left: 30px;
 }
+
 .interests-list-icon {
   fill: #81a1c1;
 }
+
 .interests-list-button {
   background-color: transparent;
   border: none;
@@ -244,23 +266,29 @@ html {
   line-height: 1.3;
   transition: color 250ms ease-in-out;
 }
+
 .interests-list-button :hover,
 .interests-list-button :focus,
 .interests-list-button :active {
   color: #7ba4d1;
 }
 
+/* --------------------------------------------------education list------------------------------------------------ */
+
 .education-list {
   flex-direction: column;
 }
+
 .education-list-item {
   display: flex;
   align-items: center;
   padding-left: 30px;
 }
+
 .education-item-icon {
   fill: #81a1c1;
 }
+
 .education-item-button {
   background-color: transparent;
   border: none;
@@ -269,12 +297,15 @@ html {
   line-height: 1.3;
   transition: color 250ms ease-in-out;
 }
+
 .education-item-button:hover,
 .education-item-button:focus,
 .education-item-button:active {
   color: #7ba4d1;
 }
-/* Textarea */
+
+/* -------------------------------------------------Textarea------------------------------------------------- */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -287,33 +318,40 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .textarea {
   padding: 38px 27px;
 }
+
 .textarea-container {
   display: flex;
   gap: 10px;
   margin-bottom: 17px;
 }
+
 .textarea-path {
   font-size: 16px;
   font-weight: 350;
   line-height: 140%;
 }
+
 .textarea-path-span {
   color: #607b96;
   line-height: 140%;
 }
+
 .textarea-text {
   color: rgb(96, 123, 150);
   font-weight: 450;
   line-height: 150%;
 }
 
-/* Code */
+/* ------------------------------------------------Code-------------------------------------------------- */
+
 .code {
   padding: 0 27px 38px 27px;
 }
+
 .code-title {
   color: rgb(255, 255, 255);
   font-size: 16px;
@@ -321,19 +359,23 @@ html {
   line-height: 140%;
   margin-bottom: 28px;
 }
+
 .code-container {
   display: flex;
   margin-bottom: 12px;
 }
+
 .code-img {
   height: 36px;
   width: 36px;
   margin-right: 11px;
 }
+
 .code-info-container {
   display: flex;
   flex-direction: column;
 }
+
 .code-name {
   color: rgb(85, 101, 232);
   font-size: 14px;
@@ -341,12 +383,14 @@ html {
   line-height: 18px;
   margin-bottom: 3px;
 }
+
 .code-description {
   color: rgb(96, 123, 150);
   font-size: 12px;
   font-weight: 450;
   line-height: 1.33;
 }
+
 .code-button {
   font-size: 14px;
   font-weight: 450;
@@ -357,8 +401,6 @@ html {
   align-items: center;
   margin-left: auto;
   gap: 6.5px;
-}
-.code-details-icon {
 }
 
 .details-hover {
@@ -374,13 +416,16 @@ html {
   color: #7ba4d1;
 }
 
-.code-area {
+/* ------------------------------------------------Codearea------------------------------------------------ */
+
+.codearea {
   box-sizing: border-box;
   border: 1px solid rgb(30, 45, 61);
   border-radius: 15px;
   padding: 24px;
   background: rgb(1, 18, 33);
 }
+
 .code-text {
   color: #607b96;
   font-size: 14px;
@@ -388,7 +433,9 @@ html {
   line-height: 170%;
 }
 
-.code-modal {
+/* ------------------------------------------------Message------------------------------------------------ */
+
+.code-message {
   border-top: 1px solid #607b96;
   padding-top: 17px;
   padding-right: 4px;
@@ -396,13 +443,15 @@ html {
   gap: 18px;
   margin-top: 18px;
 }
-.code-modal-text {
+
+.code-message-text {
   color: rgb(96, 123, 150);
   font-size: 14px;
   font-weight: 450;
   line-height: 150%;
 }
-.code-modal-button {
+
+.code-message-button {
   margin-top: 7px;
   display: flex;
   width: 10px;
@@ -412,9 +461,12 @@ html {
   background-color: transparent;
   margin-left: auto;
 }
-.code-modal-icon {
+
+.code-message-icon {
   fill: #607b96;
 }
+
+/* ------------------------------------------------Footer------------------------------------------------ */
 
 .footer {
   margin-top: auto;
@@ -459,7 +511,7 @@ html {
   fill: #7ba4d1;
 }
 
-/* Mob-menu */
+/* ------------------------------------------------Mob-menu--------------------------------- */
 
 .header-backdrop {
   opacity: 0;
