@@ -98,3 +98,42 @@ function openPersonalList() {
 }
 
 openPersonalList();
+
+function openProffesionalList() {
+  const proffessionalButtonSkills = document.getElementById(
+    "proffessional-button-skills"
+  );
+  const skillsList = document.getElementById("skills-list");
+  const proffessionalIconSkills = document.getElementById(
+    "proffessional-icon-skills"
+  );
+  const proffessionalButtonResume = document.getElementById(
+    "proffessional-button-resume"
+  );
+  const resumeList = document.getElementById("resume-list");
+  const proffessionalIconResume = document.getElementById(
+    "proffessional-icon-resume"
+  );
+
+  proffessionalButtonSkills.addEventListener("click", function () {
+    if (skillsList.style.display === "none") {
+      skillsList.style.display = "flex";
+      proffessionalIconSkills.style.transform = "rotate(90deg)";
+    } else {
+      skillsList.style.display = "none";
+      proffessionalIconSkills.style.transform = "rotate(0deg)";
+    }
+  });
+
+  proffessionalButtonResume.addEventListener("click", function () {
+    if (resumeList.style.display === "none") {
+      resumeList.style.display = "flex";
+      proffessionalIconResume.style.transform = "rotate(90deg)";
+    } else {
+      resumeList.style.display = "none";
+      proffessionalIconResume.style.transform = "rotate(0deg)";
+    }
+  });
+}
+
+openProffesionalList();

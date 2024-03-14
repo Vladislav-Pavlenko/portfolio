@@ -267,9 +267,9 @@ html {
   transition: color 250ms ease-in-out;
 }
 
-.interests-list-button :hover,
-.interests-list-button :focus,
-.interests-list-button :active {
+.interests-list-button:hover,
+.interests-list-button:focus,
+.interests-list-button:active {
   color: #7ba4d1;
 }
 
@@ -302,6 +302,168 @@ html {
 .education-item-button:focus,
 .education-item-button:active {
   color: #7ba4d1;
+}
+
+/* -------------------------------------------------proffessional list------------------------------------------------- */
+
+.proffessional-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.proffessional-title {
+  display: flex;
+  padding-left: 8px;
+  align-items: center;
+}
+
+.personal-item-arrow {
+  margin-right: 13px;
+  color: #607b96;
+}
+
+.proffessional-item-icon-red {
+  fill: #e99287;
+}
+
+.proffessional-item-button {
+  border: none;
+  background-color: transparent;
+  color: rgb(96, 123, 150);
+  font-weight: 300;
+  line-height: 1.3;
+  transition: color 250ms ease-in-out;
+}
+
+.proffessional-item-button:hover,
+.proffessional-item-button:focus,
+.proffessional-item-button:active {
+  color: #7ba4d1;
+}
+
+.skills-list {
+  flex-direction: column;
+}
+
+.skills-list-item {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.skills-icon {
+  fill: #81a1c1;
+}
+
+.skills-button {
+  background-color: transparent;
+  border: none;
+  color: #607b96;
+  font-weight: 300;
+  line-height: 1.3;
+  transition: color 250 ms ease-in-out;
+}
+
+.skills-button:hover,
+.skills-button:focus,
+.skills-button:active {
+  color: #7ba4d1;
+}
+
+.proffessional-item-icon-green {
+  fill: #43d9ad;
+}
+
+.resume-list {
+  flex-direction: column;
+}
+
+.resume-list-item {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.resume-icon {
+  fill: #81a1c1;
+}
+
+.resume-button {
+  background-color: transparent;
+  border: none;
+  color: #607b96;
+  font-weight: 300;
+  line-height: 1.3;
+  transition: color 250ms ease-in-out;
+}
+.resume-button:hover,
+.resume-button:focus,
+.resume-button:active {
+  color: #7ba4d1;
+}
+
+/* ------------------------------------------------hobbies-list------------------------------------------------ */
+
+.hobbies-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbies-list-item {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.hobbies-icon {
+  fill: #81a1c1;
+}
+
+.hobbies-button-swimming {
+  background-color: transparent;
+  border: none;
+  color: #607b96;
+  font-weight: 300;
+  line-height: 1.3;
+  transition: color 250ms ease-in-out;
+}
+
+.hobbies-button-swimming:hover,
+.hobbies-button-swimming:focus,
+.hobbies-button-swimming:active {
+  color: #7ba4d1;
+}
+
+/* ---------------------------------------------------contacts-------------------------------------------------- */
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-list-item {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.contacts-item-link {
+  display: flex;
+  align-items: center;
+  color: #607b96;
+  font-weight: 300;
+  line-height: 1.3;
+  transition: color 250ms ease-in-out;
+}
+
+.contacts-item-link:hover,
+.contacts-item-link:focus,
+.contacts-item-link:active {
+  color: #7ba4d1;
+}
+
+.contacts-icon {
+  fill: #81a1c1;
 }
 
 /* -------------------------------------------------Textarea------------------------------------------------- */
@@ -345,7 +507,28 @@ html {
   font-weight: 450;
   line-height: 150%;
 }
+.summary-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.33;
+  background-color: #1c2b3a;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: background-color 250ms ease-in-out;
+}
 
+.summary-link:hover,
+.summary-link:focus,
+.summary-link:active {
+  background-color: #2d3e4f;
+}
+.summary-icon {
+  fill: #ffffff;
+}
 /* ------------------------------------------------Code-------------------------------------------------- */
 
 .code {
