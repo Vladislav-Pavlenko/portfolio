@@ -1,24 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const openMenu = document.getElementById("open-menu");
-  const closeMenu = document.getElementById("close-menu");
-  const menu = document.getElementById("menu");
+  const openBtnEl = document.querySelector("#open-btn-js");
+  const closeMenuEl = document.querySelector("#close-btn-js");
+  const menuEL = document.querySelector("#menu-js");
 
-  openMenu.addEventListener("click", function () {
-    menu.classList.add("is-open");
-
-    // Додає або видаляє клас no-scroll в залежності від стану меню
-    if (menu.classList.contains("is-open")) {
+  openBtnEl.addEventListener("click", function () {
+    menuEL.classList.add("is-open");
+    if (menuEL.classList.contains("is-open")) {
       document.body.classList.add("no-scroll");
     } else {
       document.body.classList.remove("no-scroll");
     }
   });
 
-  closeMenu.addEventListener("click", function () {
-    menu.classList.remove("is-open");
-
-    // Додає або видаляє клас no-scroll в залежності від стану меню
-    if (menu.classList.contains("is-open")) {
+  closeMenuEl.addEventListener("click", function () {
+    menuEL.classList.remove("is-open");
+    if (menuEL.classList.contains("is-open")) {
       document.body.classList.add("no-scroll");
     } else {
       document.body.classList.remove("no-scroll");

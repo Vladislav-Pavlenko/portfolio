@@ -1,0 +1,37 @@
+/* Header */
+
+.header {
+  border-bottom: 1px solid rgb(30, 45, 61);
+}
+
+.header-navigation {
+  display: flex;
+  max-width: 100%;
+  padding: 17px 18px;
+  align-items: center;
+}
+
+.header-logo {
+  color: rgb(96, 123, 150);
+  line-height: 1.3;
+  transition: color 250ms ease-in-out;
+}
+
+.header-logo:hover,
+.header-logo:focus,
+.header-logo:active {
+  color: #7ba4d1;
+}
+
+.header-open-menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+}
+
+.header-open-menu-icon {
+  fill: #607b96;
+}

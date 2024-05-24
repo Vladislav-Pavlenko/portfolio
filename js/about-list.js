@@ -1,54 +1,54 @@
 function openAboutList() {
-  const aboutButton1 = document.getElementById("about-button1");
-  const aboutList1 = document.getElementById("about-list1");
-  const aboutIcon1 = document.getElementById("about-icon1");
-  const aboutButton2 = document.getElementById("about-button2");
-  const aboutList2 = document.getElementById("about-list2");
-  const aboutIcon2 = document.getElementById("about-icon2");
-  const aboutButton3 = document.getElementById("about-button3");
-  const aboutList3 = document.getElementById("about-list3");
-  const aboutIcon3 = document.getElementById("about-icon3");
-  const aboutButton4 = document.getElementById("about-button4");
-  const aboutList4 = document.getElementById("about-list4");
-  const aboutIcon4 = document.getElementById("about-icon4");
+  const personalBtnEl = document.querySelector("#personal-btn-js");
+  const personalListEl = document.querySelector("#personal-list-js");
+  const personalIconEl = document.querySelector("#personal-icon-js");
+  const profBtnEl = document.querySelector("#prof-btn-js");
+  const profListEl = document.querySelector("#prof-list-js");
+  const profIconEl = document.querySelector("#prof-icon-js");
+  const hobbyBtnEl = document.querySelector("#hobby-btn-js");
+  const hobbyLsitEl = document.querySelector("#hobby-list-js");
+  const hobbyIconEl = document.querySelector("#hobby-icon-js");
+  const contactsBtnEl = document.querySelector("#contacts-btn-js");
+  const contactsListEl = document.querySelector("#contacts-list-js");
+  const contactsIconEl = document.querySelector("#contacts-icon-js");
 
-  aboutButton1.addEventListener("click", function () {
-    if (aboutList1.style.display === "none") {
-      aboutList1.style.display = "flex";
-      aboutIcon1.style.transform = "rotate(0deg)";
+  personalBtnEl.addEventListener("click", function () {
+    if (personalListEl.style.display === "none") {
+      personalListEl.style.display = "flex";
+      personalIconEl.style.transform = "rotate(0deg)";
     } else {
-      aboutList1.style.display = "none";
-      aboutIcon1.style.transform = "rotate(-90deg)";
+      personalListEl.style.display = "none";
+      personalIconEl.style.transform = "rotate(-90deg)";
     }
   });
 
-  aboutButton2.addEventListener("click", function () {
-    if (aboutList2.style.display === "none") {
-      aboutList2.style.display = "flex";
-      aboutIcon2.style.transform = "rotate(0deg)";
+  profBtnEl.addEventListener("click", function () {
+    if (profListEl.style.display === "none") {
+      profListEl.style.display = "flex";
+      profIconEl.style.transform = "rotate(0deg)";
     } else {
-      aboutList2.style.display = "none";
-      aboutIcon2.style.transform = "rotate(-90deg)";
+      profListEl.style.display = "none";
+      profIconEl.style.transform = "rotate(-90deg)";
     }
   });
 
-  aboutButton3.addEventListener("click", function () {
-    if (aboutList3.style.display === "none") {
-      aboutList3.style.display = "flex";
-      aboutIcon3.style.transform = "rotate(0deg)";
+  hobbyBtnEl.addEventListener("click", function () {
+    if (hobbyLsitEl.style.display === "none") {
+      hobbyLsitEl.style.display = "flex";
+      hobbyIconEl.style.transform = "rotate(0deg)";
     } else {
-      aboutList3.style.display = "none";
-      aboutIcon3.style.transform = "rotate(-90deg)";
+      hobbyLsitEl.style.display = "none";
+      hobbyIconEl.style.transform = "rotate(-90deg)";
     }
   });
 
-  aboutButton4.addEventListener("click", function () {
-    if (aboutList4.style.display === "none") {
-      aboutList4.style.display = "flex";
-      aboutIcon4.style.transform = "rotate(0deg)";
+  contactsBtnEl.addEventListener("click", function () {
+    if (contactsListEl.style.display === "none") {
+      contactsListEl.style.display = "flex";
+      contactsIconEl.style.transform = "rotate(0deg)";
     } else {
-      aboutList4.style.display = "none";
-      aboutIcon4.style.transform = "rotate(-90deg)";
+      contactsListEl.style.display = "none";
+      contactsIconEl.style.transform = "rotate(-90deg)";
     }
   });
 }
@@ -56,43 +56,43 @@ function openAboutList() {
 openAboutList();
 
 function openPersonalList() {
-  const personalButton1 = document.getElementById("personal-button1");
-  const personalList1 = document.getElementById("personal-list1");
-  const personalIcon1 = document.getElementById("personal-icon1");
-  const personalButton2 = document.getElementById("personal-button2");
-  const personalList2 = document.getElementById("personal-list2");
-  const personalIcon2 = document.getElementById("personal-icon2");
-  const personalButton3 = document.getElementById("personal-button3");
-  const personalList3 = document.getElementById("personal-list3");
-  const personalIcon3 = document.getElementById("personal-icon3");
+  const bioBtnEl = document.querySelector("#bio-btn-js");
+  const bioListEl = document.querySelector("#bio-list-js");
+  const bioIconEl = document.querySelector("#bio-icon-js");
+  const ineteresBtnEl = document.querySelector("#interes-btn-js");
+  const ineteresListEl = document.querySelector("#interes-list-js");
+  const ineteresIconEl = document.querySelector("#interes-icon-js");
+  const educBtnEl = document.querySelector("#educ-btn-js");
+  const educListEl = document.querySelector("#educ-list-js");
+  const educIconEl = document.querySelector("#educ-icon-js");
 
-  personalButton1.addEventListener("click", function () {
-    if (personalList1.style.display === "none") {
-      personalList1.style.display = "flex";
-      personalIcon1.style.transform = "rotate(90deg)";
+  bioBtnEl.addEventListener("click", function () {
+    if (bioListEl.style.display === "none") {
+      bioListEl.style.display = "flex";
+      bioIconEl.style.transform = "rotate(90deg)";
     } else {
-      personalList1.style.display = "none";
-      personalIcon1.style.transform = "rotate(0deg)";
+      bioListEl.style.display = "none";
+      bioIconEl.style.transform = "rotate(0deg)";
     }
   });
 
-  personalButton2.addEventListener("click", function () {
-    if (personalList2.style.display === "none") {
-      personalList2.style.display = "flex";
-      personalIcon2.style.transform = "rotate(90deg)";
+  ineteresBtnEl.addEventListener("click", function () {
+    if (ineteresListEl.style.display === "none") {
+      ineteresListEl.style.display = "flex";
+      ineteresIconEl.style.transform = "rotate(90deg)";
     } else {
-      personalList2.style.display = "none";
-      personalIcon2.style.transform = "rotate(0deg)";
+      ineteresListEl.style.display = "none";
+      ineteresIconEl.style.transform = "rotate(0deg)";
     }
   });
 
-  personalButton3.addEventListener("click", function () {
-    if (personalList3.style.display === "none") {
-      personalList3.style.display = "flex";
-      personalIcon3.style.transform = "rotate(90deg)";
+  educBtnEl.addEventListener("click", function () {
+    if (educListEl.style.display === "none") {
+      educListEl.style.display = "flex";
+      educIconEl.style.transform = "rotate(90deg)";
     } else {
-      personalList3.style.display = "none";
-      personalIcon3.style.transform = "rotate(0deg)";
+      educListEl.style.display = "none";
+      educIconEl.style.transform = "rotate(0deg)";
     }
   });
 }
@@ -100,38 +100,30 @@ function openPersonalList() {
 openPersonalList();
 
 function openProffesionalList() {
-  const proffessionalButtonSkills = document.getElementById(
-    "proffessional-button-skills"
-  );
-  const skillsList = document.getElementById("skills-list");
-  const proffessionalIconSkills = document.getElementById(
-    "proffessional-icon-skills"
-  );
-  const proffessionalButtonResume = document.getElementById(
-    "proffessional-button-resume"
-  );
-  const resumeList = document.getElementById("resume-list");
-  const proffessionalIconResume = document.getElementById(
-    "proffessional-icon-resume"
-  );
+  const skillsBtnEl = document.querySelector("#skills-btn-js");
+  const skillsListEl = document.querySelector("#skills-list-js");
+  const skillsIconEl = document.querySelector("#skills-item-js");
+  const resumeBtnEl = document.querySelector("#resume-btn-js");
+  const resumeListEl = document.querySelector("#resume-list-js");
+  const resumeIconEl = document.querySelector("#resume-icon-js");
 
-  proffessionalButtonSkills.addEventListener("click", function () {
-    if (skillsList.style.display === "none") {
-      skillsList.style.display = "flex";
-      proffessionalIconSkills.style.transform = "rotate(90deg)";
+  skillsBtnEl.addEventListener("click", function () {
+    if (skillsListEl.style.display === "none") {
+      skillsListEl.style.display = "flex";
+      skillsIconEl.style.transform = "rotate(90deg)";
     } else {
-      skillsList.style.display = "none";
-      proffessionalIconSkills.style.transform = "rotate(0deg)";
+      skillsListEl.style.display = "none";
+      skillsIconEl.style.transform = "rotate(0deg)";
     }
   });
 
-  proffessionalButtonResume.addEventListener("click", function () {
-    if (resumeList.style.display === "none") {
-      resumeList.style.display = "flex";
-      proffessionalIconResume.style.transform = "rotate(90deg)";
+  resumeBtnEl.addEventListener("click", function () {
+    if (resumeListEl.style.display === "none") {
+      resumeListEl.style.display = "flex";
+      resumeIconEl.style.transform = "rotate(90deg)";
     } else {
-      resumeList.style.display = "none";
-      proffessionalIconResume.style.transform = "rotate(0deg)";
+      resumeListEl.style.display = "none";
+      resumeIconEl.style.transform = "rotate(0deg)";
     }
   });
 }

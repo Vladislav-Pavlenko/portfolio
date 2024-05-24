@@ -1,71 +1,5 @@
-/* Global */
-:root {
-  font-family: "Fira Code", monospace;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #ffffff;
-  background-color: #01080e;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-  color: rgb(251, 251, 251);
-  -webkit-tap-highlight-color: transparent;
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.no-scroll {
-  overflow: hidden;
-}
+@import "./header.css";
+@import "./reset.css";
 
 /* Decoration */
 
@@ -79,44 +13,6 @@ html {
   background-image: url("../img/header-blur.webp");
   background-position: center;
   background-color: rgb(1, 22, 39);
-}
-
-/* Header */
-
-.header {
-  border-bottom: 1px solid rgb(30, 45, 61);
-}
-
-.header-navigation {
-  display: flex;
-  max-width: 100%;
-  padding: 17px 18px;
-  align-items: center;
-}
-
-.header-logo {
-  color: rgb(96, 123, 150);
-  line-height: 1.3;
-  transition: color 250ms ease-in-out;
-}
-
-.header-logo:hover,
-.header-logo:focus,
-.header-logo:active {
-  color: #7ba4d1;
-}
-
-.header-open-menu-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  background-color: transparent;
-  margin-left: auto;
-}
-
-.header-open-menu-icon {
-  fill: #607b96;
 }
 
 /* Hero */
